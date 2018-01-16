@@ -1,0 +1,25 @@
+{
+  "name": "kabe",
+  "version": "1.0.0",
+  "repository": {},
+  "author": "nakajimakotaro <harusann2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^0.5.1",
+    "pixi.js": "^4.6.2",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "@types/json5": "^0.0.29",
+    "@types/pixi.js": "^4.6.3",
+    "copy-webpack-plugin": "^4.3.1",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --host=0.0.0.0 --inline",
+    "build": "webpack"
+  }
+}
