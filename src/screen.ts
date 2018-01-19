@@ -31,6 +31,9 @@ export class Screen{
     beginFill(color: number, alpha: number = 1){
         this.graphics.beginFill(color, alpha);
     }
+    endFill(){
+        this.graphics.endFill();
+    }
     lineStyle(width:number, color: number = 0xffffff, alpha: number = 1){
         this.graphics.lineStyle(width, color, alpha);
     }
@@ -43,6 +46,14 @@ export class Screen{
             w,
             h
         );
+    }
+    drawCircle(x:number, y:number, r:number, layerName:string){
+        const layer = this.layerMap.get(layerName);
+        if(!layer)return;
+        this.graphics.drawCircle(
+            x + layer.offset.x,
+            y + layer.offset.y,
+            r);
     }
     moveTo(x:number, y:number){
         this.graphics.moveTo(x, y);

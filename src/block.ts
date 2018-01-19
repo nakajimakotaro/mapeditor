@@ -9,8 +9,8 @@ export class Block implements GameObject{
 
     update(){}
     draw(screen:Screen){
-        screen.beginFill(1, 0xff0000);
-        screen.lineStyle(0);
+        screen.endFill();
+        screen.lineStyle(2, 0x00ff00);
         screen.drawRect(this.x, this.y, this.w, this.h, "main");
     }
     static gridMatch(game:Game, x:number, y:number):{x:number, y:number}{
