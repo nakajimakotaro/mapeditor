@@ -5,7 +5,7 @@ import {NoneState} from "./noneState";
 import {Screen} from "./screen";
 import {GameObject, GameObjectType} from "./gameObject";
 
-export class TopDownMoveBlock implements GameObject{
+export class MoveBlock implements GameObject{
     constructor(
         public startX:number,
         public startY:number,
@@ -18,42 +18,55 @@ export class TopDownMoveBlock implements GameObject{
     }
 
     draw(screen: Screen) {
-        screen.endFill();
-        screen.lineStyle(0, 0x00ffff);
-        screen.beginFill( 0x00ffff, 0.4);
+        screen.lineStyle(1, 0x00ffff);
+        screen.beginFill( 0x00ffff, 0.6);
         screen.drawRect(this.startX, this.startY, this.w, this.h, "main");
-        screen.beginFill( 0x00ffff, 0.3);
+        screen.beginFill( 0x00ffff, 0.6);
         screen.drawRect(this.goalX, this.goalY, this.w, this.h, "main");
-        screen.beginFill( 0x00ffff, 0.4);
-        screen.moveTo(this.startX, this.startY);
-        screen.lineTo(this.goalX, this.goalY, "main");
+        screen.moveTo(this.startX + this.w / 2, this.startY + this.h / 2, "main");
+        screen.lineTo(this.goalX + this.w / 2, this.goalY + this.h / 2, "main");
     }
 
-    getType(): GameObjectType {
-        return GameObjectType.MoveBlock;
+    getType(){
+        return "moveblock";
+    }
+
+    toSaveData(){
+        return {
+            type: "moveblock",
+            startX: this.startX / 9,
+            startY: this.startY / 18,
+            goalX: this.goalX / 9,
+            goalY: this.goalY / 18,
+            w: this.w / 9,
+            h: this.h / 18};
     }
 }
 
-export class TopDownMoveBlockChangeState implements State{
-    target:TopDownMoveBlock;
+export class MoveBlockChangeState implements State{
+    target:MoveBlock;
     pinX:number;
     pinY:number;
 
 
     constructor(public game:Game){
-        this.target.startX = this.game.input.layerMouseX("main")!;
-        this.target.startY = this.game.input.layerMouseY("main")!;
-        this.target.goalX = this.target.startX;
-        this.target.goalY = this.target.startY;
-        this.target.w = 0;
-        this.target.h = 0;
+        const pos = Block.gridMatch(this.game, this.game.input.layerMouseX("main")!,this.game.input.layerMouseY("main")!);
+        this.target = new MoveBlock(
+            pos.x,
+            pos.y,
+            pos.x,
+            pos.y,
+            0,
+            0);
+        this.game.objectList.push(this.target);
         this.pinX = this.target.startX;
         this.pinY = this.target.startY;
     }
     start() {
     }
 
-    state:"resize"|"goal";
+    state:"resize"|"goal" = "resize";
+
     update() {
         if(this.state == "resize" && this.game.input.isLeftClick){
             const pos = Block.gridMatch(this.game, this.game.input.layerMouseX("main")!,this.game.input.layerMouseY("main")!);
@@ -65,12 +78,12 @@ export class TopDownMoveBlockChangeState implements State{
         if(this.state == "resize" && !this.game.input.isLeftClick){
             this.state = "goal";
         }
-        if(this.state == "goal" && this.game.input.isFirstLeftClick()) {
+        if(this.state == "goal") {
             const pos = Block.gridMatch(this.game, this.game.input.layerMouseX("main")!,this.game.input.layerMouseY("main")!);
             this.target.goalX = pos.x;
             this.target.goalY = pos.y;
         }
-        if(this.state == "goal" && !this.game.input.isLeftClick){
+        if(this.state == "goal" && this.game.input.isFirstLeftClick()) {
             this.game.changeState(new NoneState());
         }
     }
@@ -80,5 +93,4 @@ export class TopDownMoveBlockChangeState implements State{
 
     end() {
     }
-
 }

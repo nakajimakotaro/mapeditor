@@ -9,5 +9,6 @@ export enum GameObjectType{
 export interface GameObject{
     update();
     draw(screen:Screen);
-    getType():GameObjectType;
+    getType():string;
+    toSaveData():any;
 }

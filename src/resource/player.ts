@@ -9,11 +9,19 @@ export class Player implements GameObject{
     update(){
     }
     draw(screen:Screen){
-        screen.beginFill(0xff0000);
-        screen.lineStyle(0);
+        screen.beginFill(0xff00ff, 0.6);
+        screen.lineStyle(1,0xff00ff, 0.6);
         screen.drawCircle(this.x, this.y, 54, "main");
     }
     getType(){
-        return GameObjectType.Block;
+        return "player";
+    }
+
+    toSaveData(){
+        return {
+            x: this.x / 9,
+            y: this.y / 18,
+            type: "player"
+        };
     }
 }

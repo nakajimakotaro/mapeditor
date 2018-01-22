@@ -9,8 +9,8 @@ export class Block implements GameObject{
 
     update(){}
     draw(screen:Screen){
-        screen.endFill();
-        screen.lineStyle(2, 0x00ff00);
+        screen.beginFill( 0xffff00, 0.6);
+        screen.lineStyle(1, 0xffff00);
         screen.drawRect(this.x, this.y, this.w, this.h, "main");
     }
     static gridMatch(game:Game, x:number, y:number):{x:number, y:number}{
@@ -20,7 +20,17 @@ export class Block implements GameObject{
         return res;
     }
     getType(){
-        return GameObjectType.Block;
+        return "block";
+    }
+
+    toSaveData(){
+        return {
+            type: "block",
+            x: this.x / 9,
+            y: this.y / 18,
+            w: this.w / 9,
+            h: this.h / 18,
+        };
     }
 }
 

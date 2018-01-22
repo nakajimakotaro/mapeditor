@@ -55,8 +55,12 @@ export class Screen{
             y + layer.offset.y,
             r);
     }
-    moveTo(x:number, y:number){
-        this.graphics.moveTo(x, y);
+    moveTo(x:number, y:number, layerName:string){
+        const layer = this.layerMap.get(layerName);
+        if(!layer)return;
+        this.graphics.moveTo(
+            x + layer.offset.x,
+            y + layer.offset.y);
     }
     lineTo(x:number, y:number, layerName:string){
         const layer = this.layerMap.get(layerName);

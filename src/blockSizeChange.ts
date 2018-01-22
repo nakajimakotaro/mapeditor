@@ -12,7 +12,7 @@ export class BlockSizeChange implements State{
         if(!targetBlock){
             const pos = Block.gridMatch(this.game, this.game.input.layerMouseX("main")!, this.game.input.layerMouseY("main")!);
             this.targetBlock = new Block(pos.x, pos.y, 0, 0);
-            this.game.blockList.push(this.targetBlock);
+            this.game.objectList.push(this.targetBlock);
         }
         this.pinPos = {x: this.targetBlock.x, y: this.targetBlock.y};
     }
@@ -36,7 +36,7 @@ export class BlockSizeChange implements State{
         if(
             this.targetBlock.w <= 0 ||
             this.targetBlock.h <= 0){
-            this.game.blockList = this.game.blockList.filter((e)=>{
+            this.game.objectList = this.game.objectList.filter((e)=>{
                 return this.targetBlock != e;
             });
         }
