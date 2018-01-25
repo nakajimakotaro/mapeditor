@@ -4,9 +4,12 @@
     <list default="true" id="0944f30c-c28b-4d62-bc8c-fbde14a5a35f" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Enemy.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/game.ts" afterPath="$PROJECT_DIR$/src/game.ts" />
       <change beforePath="$PROJECT_DIR$/src/gameObject.ts" afterPath="$PROJECT_DIR$/src/gameObject.ts" />
       <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+=======
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,6 +33,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Enemy.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Enemy.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +51,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+=======
+      <file leaf-file-name="storeage.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/storeage.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
               <folding />
             </state>
           </provider>
@@ -55,10 +66,11 @@
       <file leaf-file-name="block.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/block.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+                <marker date="1516666057942" expanded="true" signature="889:896" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,8 +79,13 @@
       <file leaf-file-name="gameObject.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gameObject.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="135">
               <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+=======
+            <state relative-caret-position="204">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
               <folding />
             </state>
           </provider>
@@ -77,8 +94,13 @@
       <file leaf-file-name="player.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resource/player.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="135">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -86,6 +108,21 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="scrollState.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/scrollState.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +136,13 @@
       <file leaf-file-name="moveBlock.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moveBlock.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="705">
               <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+=======
+            <state relative-caret-position="391">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -111,9 +153,17 @@
       <file leaf-file-name="noneState.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/noneState.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="75">
               <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding />
+=======
+            <state relative-caret-position="527">
+              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
             </state>
           </provider>
         </entry>
@@ -121,8 +171,8 @@
       <file leaf-file-name="screen.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screen.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="459">
+              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -159,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/screen.ts" />
         <option value="$PROJECT_DIR$/src/blockSizeChange.ts" />
         <option value="$PROJECT_DIR$/src/block.ts" />
-        <option value="$PROJECT_DIR$/src/resource/player.ts" />
         <option value="$PROJECT_DIR$/src/moveBlock.ts" />
+        <option value="$PROJECT_DIR$/src/resource/player.ts" />
         <option value="$PROJECT_DIR$/src/storeage.ts" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/gameObject.ts" />
@@ -200,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -281,15 +331,24 @@
       <workItem from="1516571839802" duration="30000" />
       <workItem from="1516571920425" duration="3000" />
       <workItem from="1516618145824" duration="115000" />
+<<<<<<< HEAD
       <workItem from="1516621016202" duration="527000" />
       <workItem from="1516707889833" duration="1870000" />
       <workItem from="1516749946732" duration="599000" />
       <workItem from="1516837654593" duration="599000" />
+=======
+      <workItem from="1516621016202" duration="53000" />
+      <workItem from="1516679818295" duration="1090000" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="74322000" />
+=======
+    <option name="totallyTimeSpent" value="71870000" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +371,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41804978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,6 +436,7 @@
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1516666057942" expanded="true" signature="889:896" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -528,6 +588,7 @@
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1516666057942" expanded="true" signature="889:896" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -544,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,6 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blockSizeChange.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="345">
           <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
@@ -630,6 +690,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+=======
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -648,17 +712,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/noneState.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+=======
+        <state relative-caret-position="204">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storeage.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="180">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
+=======
+        <state relative-caret-position="391">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
         </state>
       </provider>
     </entry>
@@ -672,32 +749,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gameObject.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="135">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
+=======
+        <state relative-caret-position="527">
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/moveBlock.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="705">
           <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+=======
+        <state relative-caret-position="408">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1516666057942" expanded="true" signature="889:896" ph="{...}" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resource/player.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="135">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/game.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -710,9 +809,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/screen.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+>>>>>>> be349d9036aef409feb132301e43b286dce519ee
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
