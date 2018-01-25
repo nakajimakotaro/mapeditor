@@ -10,6 +10,9 @@ import {GameObject, GameObjectType} from "./gameObject";
 import {Player} from "./resource/player";
 import {Storeage} from "./storeage";
 import {MoveBlock, MoveBlockChangeState} from "./moveBlock";
+import {EnemyCreate} from "./Enemy";
+
+
 export class Game{
     width: 1440 = 1440;
     height: 900 = 900;
@@ -34,6 +37,10 @@ export class Game{
         });
         document.getElementById("moveblock")!.addEventListener("click", (e) => {
             this.selectObject = GameObjectType.MoveBlock;
+            this.changeState(new NoneState());
+        });
+        document.getElementById("enemy")!.addEventListener("click", (e) => {
+            this.selectObject = GameObjectType.Enemy;
             this.changeState(new NoneState());
         });
         document.getElementById("player")!.addEventListener("click", (e) => {
@@ -78,6 +85,11 @@ export class Game{
         if(this.selectObject == GameObjectType.MoveBlock){
             if(this.input.isFirstLeftClick()){
                 this.changeState(new MoveBlockChangeState(this));
+            }
+        }
+        if(this.selectObject == GameObjectType.Enemy){
+            if(this.input.isFirstLeftClick()){
+                this.changeState(new EnemyCreate(this));
             }
         }
     }

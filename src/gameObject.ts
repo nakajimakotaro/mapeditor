@@ -2,6 +2,7 @@ import {Screen} from "./screen";
 
 
 export enum GameObjectType{
+    Enemy,
     Block,
     MoveBlock,
     Player,
